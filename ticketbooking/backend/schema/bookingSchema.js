@@ -30,7 +30,6 @@ const typeDefs = gql`
       firstName: String!,
       lastName: String!,
       birthDate: String,
-    
       email: String!,
       phone: String!,
       departure: String!,
@@ -38,7 +37,6 @@ const typeDefs = gql`
       departureDate: String!,
       departureTime: String!,
       classOfService: String!,
-   
       preferredAirlines: String,
      
     ): Booking
