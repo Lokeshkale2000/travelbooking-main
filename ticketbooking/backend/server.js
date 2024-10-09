@@ -4,9 +4,11 @@ const mongoose = require('mongoose');
 const typeDefs = require('./schema/bookingSchema');
 const resolvers = require('./resolvers/bookingResolvers');
 require('dotenv').config();
+const cors = require('cors');
 
 const startServer = async () => {
   const app = express();
+  app.use(cors());
 
   const server = new ApolloServer({ typeDefs, resolvers });
   await server.start();
