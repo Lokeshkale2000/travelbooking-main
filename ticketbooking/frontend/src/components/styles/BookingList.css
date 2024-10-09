@@ -1,5 +1,5 @@
 .booking-list {
-  max-width: 1600px;
+  max-width: 1500px;
   
   padding: 0px;
   border-radius: 8px;
@@ -58,7 +58,8 @@ tbody tr {
 }
 
 tbody tr:hover {
-  background-color: #2d8510; 
+  background-color: #183ca9; 
+  color: black;
 }
 
 

@@ -10,7 +10,7 @@ const GET_BOOKINGS = gql`
       firstName
       lastName
       birthDate
-     
+
       email
       phone
       departure
@@ -42,7 +42,6 @@ function BookingList() {
               <th>First Name</th>
               <th>Last Name</th>
               <th>Birth Date</th>
-             
               <th>Email</th>
               <th>Phone</th>
               <th>Departure</th>

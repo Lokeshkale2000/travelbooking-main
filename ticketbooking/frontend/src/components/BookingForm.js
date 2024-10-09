@@ -93,12 +93,12 @@ function BookingForm() {
 
   return (
     <div className="booking-card">
-    <img src={img1} alt="Travel" className="booking-image" />
+    <img src={img1} alt="Travel" className="booking-image" style={{marginTop:"80px"}}/>
 
       <form className="booking-form" onSubmit={handleSubmit}>
-        <h2>Travel Booking Form</h2>
+        <h2 style={{marginLeft:'-200px',fontSize:"28px"}}>Travel Booking Form</h2>
         <div className="form-group">
-          <label>Title</label>
+          <label style={{marginTop:'-10px'}}>Title</label>
           <input
             type="text"
             name="title"
@@ -157,7 +157,7 @@ function BookingForm() {
           />
         </div>
         <div className="form-group">
-          <label>Departure</label>
+          <label>Departure place</label>
           <input
             type="text"
             name="departure"
@@ -167,7 +167,7 @@ function BookingForm() {
           />
         </div>
         <div className="form-group">
-          <label>Destination</label>
+          <label>Destination place</label>
           <input
             type="text"
             name="destination"

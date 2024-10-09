@@ -5,7 +5,8 @@
   align-items: stretch; 
   justify-content: space-between; 
   max-width: 1100px;
-margin: auto;
+margin-top: 50px;
+margin-left: 205px;
   padding: 20px; 
   background-color: #fff; 
   border-radius: 8px;
@@ -14,19 +15,23 @@ margin: auto;
 }
 
 .booking-image {
+  margin-top: 160px;
+margin: auto;
   flex: 1;
-  max-width: 45%;
-  height: 800px; 
-  object-fit: cover;
-  border-radius: 8px; 
+  width: 500px;
+height: 640px;  
+  border-radius: 8px;
 }
 
 
 .booking-form {
   align-content: center;
-  padding-left: 85px;
+  margin-top: -10px;
+  padding-left: 65px;
   background-color: #bad6f5;
-  margin-left: 60px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 200;
+  margin-left: 30px;
   flex: 2;
   border-radius: 8px; 
 }
@@ -39,12 +44,13 @@ margin: auto;
 .form-group label {
   display: block; 
   margin-bottom: 2px; 
-  font-weight: bold; 
+  font-weight: 600;
+  text-align: left;
 }
 
 .form-group input,
 .form-group select {
-  width: 70%; 
+  width: 80%; 
   padding: 5px; 
   border: 1px solid #ccc;
   border-radius: 4px; 
@@ -53,7 +59,7 @@ margin: auto;
 
 .form-group input:focus,
 .form-group select:focus {
-  border-color: #007bff; 
+  border-color: #0653a5; 
   outline: none;
   align-items: center;
 }
